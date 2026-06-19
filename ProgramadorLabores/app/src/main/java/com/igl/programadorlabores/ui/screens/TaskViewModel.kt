@@ -3,7 +3,6 @@ package com.igl.programadorlabores.ui.screens
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.igl.programadorlabores.data.AppDatabase
 import com.igl.programadorlabores.data.Task
 import com.igl.programadorlabores.data.TaskDao
 import kotlinx.coroutines.flow.*

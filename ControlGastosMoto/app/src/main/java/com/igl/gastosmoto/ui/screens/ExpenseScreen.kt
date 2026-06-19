@@ -13,6 +13,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.igl.gastosmoto.data.AppDatabase
 import com.igl.gastosmoto.data.Expense
+import com.igl.gastosmoto.data.ExpenseDao
 import java.text.SimpleDateFormat
 import java.util.*
 

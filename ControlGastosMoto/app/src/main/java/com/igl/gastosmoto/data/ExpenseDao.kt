@@ -1,15 +1,7 @@
-package com.igl.gastosmoto
+package com.igl.gastosmoto.data
 
 import androidx.room.*
-
-@Entity(tableName = "expenses")
-data class Expense(
-    @PrimaryKey(autoGenerate = true) val id: Long = 0,
-    val amount: Double,
-    val concept: String,
-    val date: Long = System.currentTimeMillis(),
-    val km: Int = 0
-)
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ExpenseDao {

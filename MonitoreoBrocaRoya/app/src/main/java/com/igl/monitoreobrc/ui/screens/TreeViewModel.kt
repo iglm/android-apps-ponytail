@@ -3,7 +3,7 @@ package com.igl.monitoreobrc.ui.screens
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.igl.monitoreobrc.data.AppDatabase
+import com.igl.monitoreobrc.AppDatabase
 import com.igl.monitoreobrc.data.TreeRecord
 import com.igl.monitoreobrc.data.TreeDao
 import kotlinx.coroutines.flow.*

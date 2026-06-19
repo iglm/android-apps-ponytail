@@ -1,4 +1,4 @@
-package com.igl.gastosmoto
+package com.igl.gastosmoto.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

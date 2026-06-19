@@ -1,4 +1,4 @@
-package com.igl.gastosmoto
+package com.igl.gastosmoto.data
 
 import androidx.room.Database
 import androidx.room.Room

@@ -3,7 +3,6 @@ package com.igl.gastosmoto.ui.screens
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.igl.gastosmoto.data.AppDatabase
 import com.igl.gastosmoto.data.Expense
 import com.igl.gastosmoto.data.ExpenseDao
 import kotlinx.coroutines.flow.*
@@ -17,21 +16,36 @@ sealed class UiState<out T> {
 }
 
 class ExpenseViewModel(private val dao: ExpenseDao) : ViewModel() {
-    val uiState: StateFlow<UiState<List<Expense>>> = dao.getAll()
-        .map<UiState<List<Expense>>> { UiState.Success(it) }
-        .catch { emit(UiState.Error(it.message ?: "Error")) }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), UiState.Idle)
+    private val _uiState = MutableStateFlow<UiState<List<Expense>>>(UiState.Idle)
+    val uiState: StateFlow<UiState<List<Expense>>> = _uiState.asStateFlow()
 
-    val total: StateFlow<Double> = dao.total()
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0.0)
+    private val _total = MutableStateFlow(0.0)
+    val total: StateFlow<Double> = _total.asStateFlow()
+
+    init {
+        viewModelScope.launch {
+            try {
+                dao.getAll().collect { expenses ->
+                    _uiState.value = UiState.Success(expenses)
+                }
+            } catch (e: Exception) {
+                _uiState.value = UiState.Error(e.message ?: "Error")
+            }
+        }
+        viewModelScope.launch {
+            try {
+                dao.total().collect { t ->
+                    _total.value = t
+                }
+            } catch (_: Exception) {}
+        }
+    }
 
     fun add(amount: Double, concept: String, km: Int = 0) {
         viewModelScope.launch {
             try {
                 dao.insert(Expense(amount = amount, concept = concept, km = km))
-            } catch (e: Exception) {
-                // YAGNI: log mínimo, UI ya muestra error genérico
-            }
+            } catch (_: Exception) {}
         }
     }
 

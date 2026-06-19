@@ -1,18 +1,7 @@
-package com.igl.monitoreobrc
+package com.igl.monitoreobrc.data
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
-@Entity(tableName = "trees")
-data class TreeRecord(
-    @PrimaryKey(autoGenerate = true) val id: Long = 0,
-    val plot: String,
-    val treeNumber: Int,
-    val disease: String, // broca, roya, ninguna
-    val severity: String = "leve", // leve, moderada, severa
-    val date: Long = System.currentTimeMillis(),
-    val notes: String = ""
-)
+import androidx.room.*
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface TreeDao {

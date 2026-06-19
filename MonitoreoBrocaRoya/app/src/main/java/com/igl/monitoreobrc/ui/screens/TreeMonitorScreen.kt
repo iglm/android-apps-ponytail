@@ -11,7 +11,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.igl.monitoreobrc.data.AppDatabase
+import com.igl.monitoreobrc.AppDatabase
 import com.igl.monitoreobrc.data.TreeRecord
 import java.text.SimpleDateFormat
 import java.util.*

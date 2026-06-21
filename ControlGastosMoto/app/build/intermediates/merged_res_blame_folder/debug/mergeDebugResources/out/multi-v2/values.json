@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "81",
+                        "endOffsets": "132"
+                    },
+                    "to": {
+                        "startLines": "224",
+                        "startColumns": "4",
+                        "startOffsets": "14360",
+                        "endColumns": "80",
+                        "endOffsets": "14436"
+                    }
+                },
+                {
                     "source": "/home/lucas-mateo/.gradle/caches/9.5.1/transforms/bffc29384bc8436901bb58c786a0dca4/transformed/lifecycle-runtime-release/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -141,23 +158,6 @@
                         "endLines": "98,115,116,117,118,119,120,121,122,123,126,127,128,129,130,131,132,133,134,135,136,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,202,205",
                         "endColumns": "72,87,85,80,83,68,64,82,105,85,13,53,68,60,68,88,94,73,96,92,97,13,90,87,95,97,63,67,86,93,66,71,71,100,108,75,68,47,65,63,73,56,56,71,49,53,70,70,69,68,57,75,70,73,85,49,69,64,12,12",
                         "endOffsets": "6001,7209,7295,7376,7460,7529,7594,7677,7783,7869,7989,8043,8112,8173,8242,8331,8426,8500,8597,8690,8788,8937,9028,9116,9212,9310,9374,9442,9529,9623,9690,9762,9834,9935,10044,10120,10189,10237,10303,10367,10441,10498,10555,10627,10677,10731,10802,10873,10943,11012,11070,11146,11217,11291,11377,11427,11497,11562,13138,13291"
-                    }
-                },
-                {
-                    "source": "/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "81",
-                        "endOffsets": "132"
-                    },
-                    "to": {
-                        "startLines": "224",
-                        "startColumns": "4",
-                        "startOffsets": "14360",
-                        "endColumns": "80",
-                        "endOffsets": "14436"
                     }
                 },
                 {

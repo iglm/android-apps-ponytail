@@ -20,40 +20,40 @@
 15-->[androidx.core:core:1.13.1] /home/lucas-mateo/.gradle/caches/9.5.1/transforms/99065b227b1f0d889ab350dae70907d5/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:4:5-20:19
+17-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:4:5-20:19
 18        android:allowBackup="true"
-18-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:5:9-35
+18-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.13.1] /home/lucas-mateo/.gradle/caches/9.5.1/transforms/99065b227b1f0d889ab350dae70907d5/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:icon="@mipmap/ic_launcher"
-22-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:6:9-43
+22-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:6:9-43
 23        android:label="Gastos Moto"
-23-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:7:9-36
+23-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:7:9-36
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:8:9-54
+24-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:8:9-54
 25        android:supportsRtl="true"
-25-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:9:9-35
+25-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:9:9-35
 26        android:theme="@style/Theme.GastosMoto" >
-26-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:10:9-48
+26-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:10:9-48
 27        <activity
-27-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:11:9-19:20
+27-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:11:9-19:20
 28            android:name="com.igl.gastosmoto.MainActivity"
-28-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:12:13-41
+28-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:12:13-41
 29            android:exported="true"
-29-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:13:13-36
+29-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:13:13-36
 30            android:theme="@style/Theme.GastosMoto" >
-30-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:14:13-52
+30-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:14:13-52
 31            <intent-filter>
-31-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:15:13-18:29
+31-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:15:13-18:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:16:17-69
-32-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:16:25-66
+32-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:16:17-69
+32-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:16:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:17:17-77
-34-->/tmp/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:17:27-74
+34-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:17:17-77
+34-->/home/lucas-mateo/android-apps-ponytail/ControlGastosMoto/app/src/main/AndroidManifest.xml:17:27-74
 35            </intent-filter>
 36        </activity>
 37
